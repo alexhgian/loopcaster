@@ -1,12 +1,15 @@
 const LoopCaster = require('../');
 
-let caster = new LoopCaster(128, 32, function(num, data){
-        console.log(`Casting ${num} | ${data}`);
+const SIZE = 128;
+const INTERVAL = 32;
+
+let caster = LoopCaster(SIZE, INTERVAL, function(index, data){
+    console.log(`Casting => Index: ${index} | Sum: ${data}`);
 });
 
 let sum = 0;
 
 for( var i = 0; i < 128; i++ ){
-    sum += 2;
+    sum += 3;
     caster.chant(sum);
 }
