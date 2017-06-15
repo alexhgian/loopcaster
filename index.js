@@ -12,7 +12,7 @@ class LoopCaster {
 
   /**
    * chant
-   * increments count and trigger callback at an inteval
+   * increments count and trigger callback at an interval
    */
   chant(data){    
     this.count++;

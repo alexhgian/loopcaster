@@ -1,4 +1,4 @@
-const LoopCaster = require('loopcaster');
+const LoopCaster = require('../');
 
 let caster = new LoopCaster(128, 32, function(num, data){
         console.log(`Casting ${num} | ${data}`);
