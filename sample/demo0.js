@@ -9,7 +9,7 @@ let caster = LoopCaster(SIZE, INTERVAL, function(index, data){
 
 let sum = 0;
 
-for( var i = 0; i < 128; i++ ){
+for( var i = 0; i < SIZE; i++ ){
     sum += 3;
     caster.chant(sum);
 }

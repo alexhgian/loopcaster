@@ -25,8 +25,8 @@ Define a caster w/ max iteration, steps you want to print, and a callback.
 Output:
 
 ```
-Casting 32 | 64
-Casting 64 | 128
-Casting 96 | 192
-Casting 128 | 256
+Casting => Index: 32 | Sum: 96
+Casting => Index: 64 | Sum: 192
+Casting => Index: 96 | Sum: 288
+Casting => Index: 128 | Sum: 384
 ```
