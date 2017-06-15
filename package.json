@@ -1,6 +1,6 @@
 {
   "name": "loopcaster",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "When you need to print out something after `n` iterations.",
   "main": "index.js",
   "scripts": {
