@@ -10,7 +10,7 @@ Define a caster w/ max iteration, steps you want to print, and a callback.
     const SIZE = 128;
     const INTERVAL = 32;
 
-    let caster = LoopCaster(SIZE, INTERVAL, function(index, data){
+    let caster = new LoopCaster(SIZE, INTERVAL, function(index, data){
         console.log(`Casting ${index} | ${data}`);
     });
 

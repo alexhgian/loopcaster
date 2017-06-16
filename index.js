@@ -22,4 +22,4 @@ class LoopCaster {
   }
 }
 
-module.exports = (size, interval, cb) => new LoopCaster(size, interval, cb);
+module.exports = LoopCaster;
